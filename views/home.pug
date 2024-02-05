@@ -1,0 +1,35 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style.css
+
+block scripts 
+    script 
+        include ../static/index.js
+
+block content
+
+        section#introSection 
+            div Welcome to Dance World 
+            div.smallDiv Eat Sleep And Dance
+
+        section#missionSection 
+            h2 Our Mission
+            div#card-box 
+                div#card1.card
+                    p Dance perfection
+                div#card2.card 
+                    p Dance the way you like
+                div#card3.card 
+                    p Expert teaching
+        section#sponserSection 
+            h2 Our Sponser
+            div#sponser 
+                img(src="../static/hp.png", alt="sponser" Class="spimage")
+                img(src="../static/microsoft.png", alt="sponser" Class="spimage")
+                img(src="../static/apple.png", alt="sponser" Class="spimage")
+                img(src="../static/insta.png", alt="sponser" Class="spimage")
+
+
+            

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* font-family: 'Merriweather', serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lato', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+
+#navbar {
+  background-color: #0e334e;
+  padding: 3px 7px;
+}
+#logo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    margin: 0px 14px;
+    margin-right: 23px;
+}
+#logo img
+{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 7px 10px;
+  margin: 5px 5px;
+  font-size: 1.2rem;
+  color: white;
+}
+#navbar li a:hover {
+  color: black;
+}
+#navbar .btn {
+  float: right;
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  width: 100px;
+  cursor: pointer;
+  padding: 3px;
+  font-size: 17px;
+  color: white;
+  border: 1px solid black;
+  background-color: rgba(94, 84, 84, 0.384);
+  border-radius: 20px;
+}
+#navbar .btn:hover {
+  color: black;
+}
+#introSection {
+  height: 350px;
+  background: url("../static/bg.jpg") no-repeat center center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.6rem;
+  padding-bottom: 10px;
+  font-family: "Kalam", cursive;
+}
+#introSection .smallDiv {
+  font-size: 1.6rem;
+}
+
+#missionSection {
+  height: 330px;
+  background-color: #9cb8b06e;
+
+}
+#missionSection h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 8px;
+}
+#card-box
+{
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-box .card
+{
+    border: 1px solid rebeccapurple;
+    height: 230px;
+    width: 28%;
+    margin: 4px 12px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+
+}
+#card1
+{
+    background: url(../static/card2.jpg) no-repeat center/cover;
+}
+#card2
+{
+    background: url(../static/card3.jpg) no-repeat center/cover;
+}
+#card3
+{
+    background: url(../static/card1.jpg) no-repeat center/cover;
+}
+#sponserSection {
+    height: 230px;
+    background-color: rgb(235 195 183 / 52%);
+}
+#sponserSection h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+#sponser
+{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.spimage
+{
+    height: 110px;
+    margin: 2px 10px;
+}
+
+#footer {
+  height: 50px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-family: 'Lato', sans-serif; 
+}
